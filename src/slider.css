@@ -1,0 +1,12 @@
+.slide button{
+    position: fixed;
+    z-index: 999;
+    right: 65px;
+    top: 5px;
+}
+.slide img{    
+    height: 400px;
+    width: 1110px;
+    position: relative;
+    left: -15px;
+}

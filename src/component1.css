@@ -1,0 +1,9 @@
+.definition{ background: crimson;padding-top: 10px;padding-bottom: 5px; }
+.definition h3{ color: lightsteelblue;}
+
+/*media query for mobile*/
+@media only screen and (max-width: 768px){
+    .definition{width: 263%;font-size: 25px;}
+    .definition h3{font-size: 27px;}
+    .definition p{font-size: 25px;}
+}

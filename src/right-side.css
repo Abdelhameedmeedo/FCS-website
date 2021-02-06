@@ -1,0 +1,34 @@
+.right{height: 0;}
+.lists {
+    background-color: rgba(4,4,158,.8);
+    position: relative;
+    left: 1000px;
+    bottom: 1177px;
+    min-height: 122vh;
+    width: 95px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+}
+.lists .ul-lists{ list-style: none;cursor: pointer;}
+.lists .ul-lists li{position: relative;top: 131px;right: 58px;padding-bottom: 52px;}
+.lists .ul-lists li a{color: darkgray;text-decoration: none;}
+/*adding and remove class on list item*/
+.lists ul li.active a{ color: cornsilk;transition: .5s;padding-left: 2px;}
+
+/*media query*/
+@media only screen and (max-width: 768px){
+    .lists{
+        position: relative;
+        bottom: 1530px;
+        left: 959px;
+        width: 40%;
+        min-height: 167vh;
+    }    
+    .lists .ul-lists li{
+        font-size: 25px;
+        position: relative;
+        top: 167px;
+        right: 65px;
+        padding-bottom: 60px;
+    }
+}

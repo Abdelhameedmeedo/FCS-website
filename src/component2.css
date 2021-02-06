@@ -1,0 +1,17 @@
+.dep{
+    background-image: url('back.jpg');
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.dep h3{ color: black; padding-bottom: 10px;}
+.dep img{width: 200px;height: 200px;padding-right: 25px;}
+.dep .cont .anim{ transition: all 1s ease-in-out; }
+.dep .cont .anim:hover{ transform: scale(.8,.8); transition: all 1s ease-in-out; }
+
+/*media query for mobile*/
+@media only screen and (max-width: 768px){
+    .dep{width: 263%;}
+    .dep h3{font-size:30px}
+    .dep .cont .anim:hover{transform: unset;}
+}

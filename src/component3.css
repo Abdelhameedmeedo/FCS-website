@@ -1,0 +1,13 @@
+.loops{background: darkcyan;padding-top: 10px;padding-bottom: 15px;}
+.loops h3{ color: lavender;padding-bottom: 5px; }
+.loops .lo-cont{float: right;}
+.loops .lo-cont h4{position: relative;left: 145px;}
+.loops .lo-cont p{position: relative;right: 75px;color: azure;}
+
+/*media query for mobile*/
+@media only screen and (max-width: 768px){
+    .loops{width: 263%;}
+    .loops h3{font-size: 30px;}
+    .loops .lo-cont h4{font-size: 25px;}
+    .loops .lo-cont p{font-size: 24px;}
+}

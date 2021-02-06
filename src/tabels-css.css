@@ -1,0 +1,73 @@
+.tabels{ 
+    background-color: cornsilk;
+    padding-bottom: 10px;
+    height: 847px;
+    width: 1015px;
+    position: relative;
+    top: -2024px;
+    left: -15px;
+    padding-top: 50px;
+    border: 1px solid;
+    border-left-color: darkgray;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+}
+.tabels h2{
+    position: relative;
+    left: 430px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: crimson;
+}
+.tabels .htwo{
+    color: crimson;
+    padding-bottom: 15px;
+    position: relative;
+    top: -128px;
+    left: 430px;
+}
+.tabels img{ transform: rotate(270deg); width: 230px; }
+.tabels .A{ position: relative; top: -35px; left: -63px; }  
+.tabels .B{ position: relative; left: -35px; }
+.tabels .C{ position: relative; top: -160px; left: -63px; }
+.tabels .D{position: relative; left: -35px; top: -147px; }
+/*start pop up*/
+.pop-up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.pop-container{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10001;
+}
+.pop-container h3{
+    font-weight: bold;
+    font-size:30px;
+    color: green;
+}
+.pop-container img{
+    max-width: 100%;
+}
+.btn{
+    background-color: red;
+    color: white;
+}
+/*media query for mobile*/
+@media only screen and (max-width: 768px){
+    .tabels{position: relative;top: -2700px;height: 1170px;width: 287%;}
+    .tabels h2{ position: relative;top: 70px;font-size: 32px;}
+    .tabels .htwo{position: relative;top: 115px;}
+    .tabels .A{position: relative;top: 135px;transform: skew(25,50);}
+    .tabels .B{position: relative;top: 171px;left: 10px;}
+    .tabels .C{position: relative;top: 168px;left: -63px;}
+    .tabels .D{position: relative;top: 175px;left: -4px;}
+}

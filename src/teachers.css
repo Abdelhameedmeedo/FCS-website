@@ -1,0 +1,33 @@
+/*component(parent div)*/
+.teach{
+    background: teal;
+    color: aliceblue;
+    padding-top: 45px;
+    position: relative;
+    height: 847px;
+    top: -2024px;
+    left: -15px;
+    width: 1015px;
+}
+/*heading of component*/
+.teach h3{font-size: 30px;}
+/*content of lecture and doctor*/
+.teach .cont{position: relative;top: 85px;}
+/*first and second year title*/
+.teach h4{position: absolute;right: 220px;top: 20px;color: black;font-size: 26px;}
+/*doctor name*/
+.teach h5{color: black;}
+/*lecture*/
+.teach span{position: relative;left: -65px;}
+
+
+/*media query for mobile*/
+@media only screen and (max-width: 768px){
+    .teach{position: relative;top: -2700px;width: 286%;height: 1172px;}
+    .teach h3{font-size: 50px;}
+    .teach h4{font-size: 35px;right: 35px;}
+    .teach h5{font-size: 30px;}
+    .teach span{font-size: 28px;}
+    .teach .down{position: relative;top: 177px;left: 15px;}
+    .teach .fir{ position: absolute;top: 95px;}
+}
